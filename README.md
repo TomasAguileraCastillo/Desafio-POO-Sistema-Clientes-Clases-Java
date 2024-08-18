@@ -238,5 +238,18 @@ Mucho éxito!
 
 
 
-Imagenes del proyecto Realizado : 
+Imagenes del proyecto Realizado :
 --
+
+para correr el programam se debe crear la carpeta Clientes en la Raiz C: y Agregar el archivo a importar que se agrega al repositorio
+
+![img.png](img.png)
+
+
+![img_1.png](img_1.png)
+
+![img_2.png](img_2.png)
+
+Imagen de testeo ok 
+
+![img.png](imagenes del proyecto/img.png)

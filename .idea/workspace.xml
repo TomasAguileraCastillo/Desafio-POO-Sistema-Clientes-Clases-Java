@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e5dd5d50-9c82-4ee2-b368-af4a83228a11" name="Changes" comment="Actualizacion de codigo">
+    <list default="true" id="e5dd5d50-9c82-4ee2-b368-af4a83228a11" name="Changes" comment="Actualizacion de Readme">
+      <change afterPath="$PROJECT_DIR$/DBClientes.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imagenes del proyecto/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cl/praxis/ClienteServicioTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cl/praxis/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +59,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "JUnit.ClienteServicioTester.executor": "Run",
+    "JUnit.ClienteServicioTester.testAgregarCliente.executor": "Run",
+    "JUnit.ClienteServicioTester.testAgregarClienteNulo.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -63,9 +72,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Tomas\Desktop\SistemaClientes\SistemaClientes" />
+      <recent name="C:\Users\Tomas\Desktop\SistemaClientes\SistemaClientes\imagenes del proyecto" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ClienteServicioTester">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cl.praxis.main.Main" />
       <module name="SistemaClientes" />
@@ -79,8 +89,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ClienteServicioTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SistemaClientes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cl.praxis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cl.praxis" />
+      <option name="MAIN_CLASS_NAME" value="cl.praxis.ClienteServicioTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteServicioTester.testAgregarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SistemaClientes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cl.praxis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cl.praxis" />
+      <option name="MAIN_CLASS_NAME" value="cl.praxis.ClienteServicioTester" />
+      <option name="METHOD_NAME" value="testAgregarCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteServicioTester.testAgregarClienteNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SistemaClientes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cl.praxis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cl.praxis" />
+      <option name="MAIN_CLASS_NAME" value="cl.praxis.ClienteServicioTester" />
+      <option name="METHOD_NAME" value="testAgregarClienteNulo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClienteServicioTester" />
+        <item itemvalue="JUnit.ClienteServicioTester.testAgregarClienteNulo" />
+        <item itemvalue="JUnit.ClienteServicioTester.testAgregarCliente" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -118,7 +178,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723964865303</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Actualizacion de Readme">
+      <option name="closed" value="true" />
+      <created>1723965265321</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723965265321</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,7 +203,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion y Actualizacion de codigo" />
     <MESSAGE value="Actualizacion de codigo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de codigo" />
+    <MESSAGE value="Actualizacion de Readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de Readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
