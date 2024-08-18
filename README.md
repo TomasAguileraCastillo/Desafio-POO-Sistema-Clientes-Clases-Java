@@ -251,5 +251,5 @@ para correr el programam se debe crear la carpeta Clientes en la Raiz C: y Agreg
 ![img_2.png](img_2.png)
 
 Imagen de testeo ok 
-
-![img.png](imagenes del proyecto/img.png)
+ 
+![imgz.png](imagenes%20del%20proyecto%2Fimgz.png)
